@@ -1,0 +1,49 @@
+body{
+	width: 100%;
+	margin: auto;
+	background-color: #ddd;
+}
+
+h1{
+	text-align: center;
+}
+
+.game{
+	width:50%;
+	margin:0 25%;
+}
+
+.game-table{
+	float:left;
+}
+
+.game-table td{
+	border:1px solid black;
+	width:22px;
+	height: 22px;
+}
+
+.next-pieces-case{
+	border:3px solid black;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.game-next-pieces, .game-info{
+	margin-left: 275px;
+}
+
+.game-next-pieces{}
+
+.game-info{
+	margin-top: 35px;
+}
+
+.myPiece{
+	background-color: red;
+}
+
+.motif-elt{
+	background-color: blue;
+}

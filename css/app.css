@@ -1,0 +1,89 @@
+body{
+	width: 100%;
+	margin: auto;
+	background-color: #7aa;
+}
+
+h1{
+	text-align: center;
+}
+
+.game{
+	width:80%;
+	margin:0 10%;
+}
+
+.game-saved-piece{
+	float:left;
+	padding-right:25px;
+}
+
+.game-table{
+	float:left;
+	background-color: #2f2f2f;
+}
+
+.game-next-pieces, .game-info{
+	float: left;
+	padding-left:25px;
+}
+
+.shadow{
+	border: solid 1px white !important;
+	border-radius: 3px;
+}
+
+.game-table td{
+	border:1px solid black;
+	width:22px;
+	height: 22px;
+}
+
+.saved-pieces-case, .next-pieces-case{
+	border:3px solid black;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+.game-next-pieces{}
+
+.game-info{
+	margin-top: 35px;
+	background-color: #fff;
+}
+
+/* element of a piece (motif or actual piece) */
+.myPiece, .motif-elt{
+	border-radius: 3px;
+	opacity: 0.8
+}
+
+.color-piece-yellow{
+	background-color: #ffc225;
+}
+
+.color-piece-blue{
+	background-color: #4464e9;
+}
+
+.color-piece-green{
+	background-color: #7cd424;
+}
+
+.color-piece-orange{
+	background-color: #ff7e25;
+}
+
+.color-piece-red{
+	background-color: #fa325a;
+}
+
+.color-piece-pink{
+	background-color: #d24cad;
+}
+
+.rotation-point{
+	/* background-color: black; */
+}
